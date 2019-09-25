@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/register",
+    "pages/index/retrieve-password",
+    "pages/index/ks-register",
+    "pages/index/sign"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#47a8ec",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

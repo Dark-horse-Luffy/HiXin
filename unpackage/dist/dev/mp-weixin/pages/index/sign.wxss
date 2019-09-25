@@ -1,0 +1,61 @@
+
+input {
+    -webkit-appearance: none;
+}
+.dl {
+	/* margin-top: 100upx; */
+}
+.reg {
+	font-size: 34rpx;
+	font-family: "\9ED1\4F53";
+	font-weight: 700;
+	display: block;
+	margin: 80rpx 0 92rpx 60rpx;
+}
+.sh, .ps {
+	width: 580rpx;
+	height: 66rpx;
+	border-bottom: 1rpx solid #f4f4f4;
+	padding: 0rpx 0 0 50rpx;
+}
+.sh {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAPCAYAAAAyPTUwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkY4RDc3MDMxRDA4RDExRTlBNTU5QkNFN0NCRUU1Q0I1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkY4RDc3MDMyRDA4RDExRTlBNTU5QkNFN0NCRUU1Q0I1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RjhENzcwMkZEMDhEMTFFOUE1NTlCQ0U3Q0JFRTVDQjUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RjhENzcwMzBEMDhEMTFFOUE1NTlCQ0U3Q0JFRTVDQjUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5aYNcDAAAArElEQVR42mKMjIysYmBgSAbi3wy4ATMQr2cBEilAbADEX6AS/5EUMUJpViC+yAI18TsQ/wNiJyAugrJBCjcA8Vwg/glSw4Jm3T4gPgA1nRGqCQ5YsLjvHxbngAETAwlgKCpmwRIBeBULgmIHTfw/Fs2SIMUfgNgRLQIcgPgIEP9B0ryPBZpIPkCjFOYcdSDejpReQGIsIMWbgfgyEP9AMhlkYhgSH5SQzgMEGADGZSTM/enGPQAAAABJRU5ErkJggg==) no-repeat left 10rpx;
+	margin: 0 auto 60rpx;
+}
+.ps {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAPCAYAAAA/I0V3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjBERjNDQjJDRDA4RTExRTk5RUU3OTYxRjE2NTYyQkNEIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjBERjNDQjJERDA4RTExRTk5RUU3OTYxRjE2NTYyQkNEIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MERGM0NCMkFEMDhFMTFFOTlFRTc5NjFGMTY1NjJCQ0QiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MERGM0NCMkJEMDhFMTFFOTlFRTc5NjFGMTY1NjJCQ0QiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7RW1fxAAAA/0lEQVR42mKMjIxkQAI8QJwJxFFALAfEz4F4FRBPBuL3MEUsSBqEgHgXEP8A4gYgfgbEokCcDzXECSqGomkqEN8F4hgg/o0kvgOIpwPxAiB2Q9akCsReQKyGpgEE/gFxKRDfB2IjID7HBJVQAOI7QPyKATv4BMRngVgJZlMCECdDNa4BYkYsmkC26QBxBRDrgzR1AfFFIJ6LQwMM3ANidVDAgDQxA3EbEO9nIAwMgNgB5id0G0CGhUMDBhmA1THhMNEEiFcAcTc2SVyaLkFTw3ZSNH0D4s9QjRiABY+n3fFpYoT64TsWeUk0vj5IPUjTYSCuBeL/RAQ5yIIzAAEGANTTLXGnNb2aAAAAAElFTkSuQmCC) no-repeat left 10rpx;
+	margin: 0 auto;
+}
+.input {
+	font-size: 26rpx;
+}
+.zc-mi {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 640rpx;
+	margin: 0 auto;
+	font-size: 24rpx;
+	color: #59a6de;
+}
+.button {
+	width: 640rpx;
+	margin: 242rpx auto 0;
+}
+.denglu {
+	background-color: #47a8ec;
+	border-radius: 50rpx;
+	color: #fffffd;
+}
+
+
